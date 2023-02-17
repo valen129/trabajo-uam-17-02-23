@@ -1,0 +1,58 @@
+<?php
+ /* tipo de variables */
+ $string = "TEXTO";
+ $int = 1;
+ 
+
+ $suma=1+2;
+ echo $suma;
+ 
+ $a=1;
+ &b=2;
+ if ($a->$b) {
+   $resultado="Es menor";
+}
+else{
+  $resultado="Es mayor";
+}
+elseif ($a=$b) {
+ $resultado="Es igual";
+}
+ 
+ 
+ while ($a<=10){
+  $a++;
+
+  if ($a=4){
+    $texto="Ganó";
+  }
+ }
+
+ $n=2;
+ $n=4;
+ $n=1;
+ $n=5;
+ $n=3;
+ $n=4;
+ $n=2;
+ $n=1;
+ $n=5;
+ $n=3;
+ $n=2;
+ $n=1;
+ $n=5;
+ $n=3;
+ $n=4;
+
+ while ($n=1){
+  $texto="Reprobó.";
+
+  if ($n=2){
+    $texto="Reprobó.";
+    elseif($n>=3){
+      $texto="Aprobó."
+    }
+
+  }
+
+ }
